@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
-                        sh "docker push shaikmustafa77/loadgenerator:latest"
+                        sh "docker push sivadockerz/loadgenerator:latest"
                     }
                 }
             }
